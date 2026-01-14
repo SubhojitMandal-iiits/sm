@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Awards | Subhojit Mandal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <div class="brand__mark" aria-hidden="true">SM</div>
+        <div class="brand__text">
+          <div class="brand__name">Subhojit Mandal</div>
+          <div class="brand__role">Fellowships & Awards</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="research.html">Research</a>
+        <a class="nav__link" href="teaching.html">Teaching</a>
+        <a class="nav__link is-active" href="awards.html">Awards</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h1 class="page__title">Awards</h1>
+
+      <div class="card">
+        <ul class="bullets">
+          <li>1st Prize — CNI-IBM-IISc IndiaAI Hackathon (Sept 2025): finetuning Prithvi for crop identification.</li>
+          <li>AGU Travel Grant (2024)</li>
+          <li>Anusandhan National Research Foundation — ITS (Travel to Washington D.C., USA)</li>
+          <li>IEEE GRSS Travel Grant (2022, Kuala Lumpur, Malaysia)</li>
+          <li>UGC India Lectureship NET (Mathematical Sciences) — June 2018 (Rank 38)</li>
+          <li>UPE Phase-II scholarship — University of Hyderabad (Nov 2016 – Jun 2017)</li>
+          <li>Merit-cum-means fellowship (West Bengal) — B.Sc (2011–2014), H.S (2009–2011)</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Subhojit Mandal</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

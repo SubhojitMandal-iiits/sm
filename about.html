@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About | Subhojit Mandal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <div class="brand__mark" aria-hidden="true">SM</div>
+        <div class="brand__text">
+          <div class="brand__name">Subhojit Mandal</div>
+          <div class="brand__role">Geospatial ML · Spatiotemporal Prediction</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link is-active" href="about.html">About</a>
+        <a class="nav__link" href="research.html">Research</a>
+        <a class="nav__link" href="teaching.html">Teaching</a>
+        <a class="nav__link" href="awards.html">Awards</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h1 class="page__title">About</h1>
+
+      <div class="card">
+        <p>
+          I am a researcher specializing in geospatial algorithms and advanced ML/DL methods for spatiotemporal prediction,
+          with applications in air quality and remote sensing.
+        </p>
+      </div>
+
+      <section class="section">
+        <h2 class="h2">Research Interests</h2>
+        <div class="chips">
+          <span class="chip">Spatial Statistics</span>
+          <span class="chip">Graph Neural Networks</span>
+          <span class="chip">Spatiotemporal Forecasting</span>
+          <span class="chip">Remote Sensing</span>
+          <span class="chip">Geoscience</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="h2">Positions & Education</h2>
+        <div class="timeline">
+          <div class="titem">
+            <div class="titem__when">Sept 2025 – Present</div>
+            <div class="titem__what">
+              <div class="titem__title">Assistant Professor (Contract)</div>
+              <div class="titem__sub">Manipal Institute of Technology, Bangalore</div>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__when">Apr 2025 – May 2025</div>
+            <div class="titem__what">
+              <div class="titem__title">Visiting Researcher</div>
+              <div class="titem__sub">TU Munich, Germany · Advisor: Dr. Jia Chen</div>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__when">Jan 2019 – Aug 2025</div>
+            <div class="titem__what">
+              <div class="titem__title">Ph.D. (CSE)</div>
+              <div class="titem__sub">IIIT Sri City · Advisor: Dr. Mainak Thakur</div>
+              <div class="titem__desc">Thesis: Spatiotemporal atmospheric pollutant monitoring using a GNN approach.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Subhojit Mandal</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

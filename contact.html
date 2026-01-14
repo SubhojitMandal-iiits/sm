@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Subhojit Mandal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <div class="brand__mark" aria-hidden="true">SM</div>
+        <div class="brand__text">
+          <div class="brand__name">Subhojit Mandal</div>
+          <div class="brand__role">Contact</div>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="research.html">Research</a>
+        <a class="nav__link" href="teaching.html">Teaching</a>
+        <a class="nav__link" href="awards.html">Awards</a>
+        <a class="nav__link is-active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h1 class="page__title">Contact</h1>
+
+      <div class="card contact">
+        <div>
+          <div class="contact__k">Email</div>
+          <div class="contact__v"><a href="mailto:subhojit.m@iiits.in">subhojit.m@iiits.in</a></div>
+        </div>
+        <div>
+          <div class="contact__k">Phone</div>
+          <div class="contact__v"><a href="tel:+917908639533">+91 79086 39533</a></div>
+        </div>
+        <div>
+          <div class="contact__k">Location</div>
+          <div class="contact__v">India</div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:14px;">
+        <h2 class="h2">Links</h2>
+        <ul class="bullets">
+          <li><a href="#">LinkedIn (add URL)</a></li>
+          <li><a href="#">Google Scholar (add URL)</a></li>
+          <li><a href="#">GitHub (add URL)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Subhojit Mandal</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
