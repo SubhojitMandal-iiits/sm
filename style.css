@@ -339,3 +339,24 @@ h1{
   .two-col{ columns: 1; }
   .titem{ grid-template-columns: 1fr; }
 }
+/* Multi-page helpers */
+.page { padding: 26px 0 6px; }
+.page__title{
+  margin: 0 0 14px;
+  font-size: clamp(26px, 3vw, 36px);
+  letter-spacing: -0.3px;
+}
+
+.nav__link.is-active{
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.92);
+  text-decoration: none;
+}
+
+.h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+}
+
